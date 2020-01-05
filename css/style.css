@@ -1,0 +1,57 @@
+body {
+  background: url(https://images.unsplash.com/photo-1567003762442-2078a0da1cee?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&);
+  background-size: cover;
+}
+nav,
+div.nav-wrapper,
+a.brand-logo,
+nav ul a {
+  color: #222;
+  background-color: #eee;
+}
+
+nav .nav-wrapper {
+  width: 70vw;
+  margin: auto;
+}
+
+img.headshot {
+    height: auto;
+    width: 25%;
+    float: left;
+    margin: 2% 0 2% 2%;
+}
+
+div.about-container, div.contact-container {
+    margin: 5% auto 5% auto;
+    padding: 1.5%;
+    background: #ffffff;
+    color: #666666;
+    width: 72vw;
+}    
+
+h1.contact,
+h1.about,
+h1.portfolio {
+  display: block;
+  color: #222;
+  font-size: 2em;
+}
+p {
+    line-height: 2
+}
+footer {
+  display: block;
+  color: #222;
+  background: #ccb;
+  text-align: center;
+  font-size: 0.7em;
+  position: fixed;
+  left:0;
+  bottom: 0;
+  width: 100vw;
+  padding: 10px;
+  box-shadow:   2px 2px 2px 0 rgba(0, 0, 0, 0.14),
+                0 3px 1px -2px rgba(0, 0, 0, 0.12), 
+                0 1px 5px 0 rgba(0, 0, 0, 0.2);
+}
