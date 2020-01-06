@@ -11,8 +11,8 @@ nav ul a {
 }
 
 nav .nav-wrapper {
-  width: 70vw;
   margin: auto;
+  overflow: auto;
 }
 
 img.headshot {
@@ -22,12 +22,12 @@ img.headshot {
     margin: 2% 0 2% 2%;
 }
 
-div.about-container, div.contact-container {
-    margin: 5% auto 5% auto;
+div.container {
+    margin: 5% auto;
     padding: 1.5%;
     background: #ffffff;
     color: #666666;
-    width: 72vw;
+    overflow: auto;
 }    
 
 h1.contact,
@@ -39,6 +39,9 @@ h1.portfolio {
 }
 p {
     line-height: 2
+}
+textarea.materialize-textarea {
+  height: 7em;
 }
 footer {
   display: block;
