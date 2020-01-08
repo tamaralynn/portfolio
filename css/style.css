@@ -1,16 +1,16 @@
 body {
-  background: url(https://images.unsplash.com/photo-1567003762442-2078a0da1cee?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&);
-  background-size: cover;
+  background: url(../images/background-tile.jpg);
+
 }
 nav,
 div.nav-wrapper,
-a.brand-logo,
-nav ul a {
+a.brand-logo, nav a,
+ul li a {
   color: #222;
   background-color: #eee;
 }
 
-nav .nav-wrapper {
+div.nav-wrapper {
   margin: auto;
   overflow: auto;
 }
@@ -19,7 +19,7 @@ img.headshot {
     height: auto;
     width: 25%;
     float: left;
-    margin: 2% 0 2% 2%;
+    margin: 2% 2% 2% 2%;
 }
 
 div.container {
