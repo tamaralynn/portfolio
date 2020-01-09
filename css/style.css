@@ -1,6 +1,15 @@
+/*
+have nav & body go across the screen w/ larger space in between them
+name disappears on sm
+footer attached to bottom of body instead of viewport
+white/cream background for nav / body
+center name "logo"
+change fonts - roboto
+ */
+
 body {
   background: url(../images/background-tile.jpg);
-
+  background-size: 70vh;
 }
 nav,
 div.nav-wrapper,
@@ -25,10 +34,13 @@ img.headshot {
 div.container {
     margin: 5% auto;
     padding: 1.5%;
-    background: #ffffff;
-    color: #666666;
+    background: #eee;
+    color: #222;
     overflow: auto;
 }    
+div.contact-container{
+    width:100%;
+}
 
 h1.contact,
 h1.about,
