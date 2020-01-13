@@ -1,72 +1,97 @@
-/*
-have nav & body go across the screen w/ larger space in between them
-name disappears on sm
+         /*
 footer attached to bottom of body instead of viewport
-white/cream background for nav / body
+white/cream background for nav
 center name "logo"
-change fonts - roboto
+font-family: 'Julius Sans One', sans-serif;
+font-family: 'Staatliches', cursive;
+font-family: 'Rubik Mono One', sans-serif;
  */
-
-body {
-  background: url(../images/background-tile.jpg);
-  background-size: 70vh;
-}
-nav,
-div.nav-wrapper,
-a.brand-logo, nav a,
-ul li a {
-  color: #222;
-  background-color: #eee;
-}
-
-div.nav-wrapper {
-  margin: auto;
-  overflow: auto;
-}
-
-img.headshot {
-    height: auto;
-    width: 25%;
-    float: left;
-    margin: 2% 2% 2% 2%;
-}
-
-div.container {
-    margin: 5% auto;
-    padding: 1.5%;
-    background: #eee;
-    color: #222;
-    overflow: auto;
-}    
-div.contact-container{
-    width:100%;
-}
-
-h1.contact,
-h1.about,
-h1.portfolio {
-  display: block;
-  color: #222;
-  font-size: 2em;
-}
-p {
-    line-height: 2
-}
-textarea.materialize-textarea {
-  height: 7em;
-}
-footer {
-  display: block;
-  color: #222;
-  background: #ccb;
-  text-align: center;
-  font-size: 0.7em;
-  position: fixed;
-  left:0;
-  bottom: 0;
-  width: 100vw;
-  padding: 10px;
-  box-shadow:   2px 2px 2px 0 rgba(0, 0, 0, 0.14),
-                0 3px 1px -2px rgba(0, 0, 0, 0.12), 
-                0 1px 5px 0 rgba(0, 0, 0, 0.2);
-}
+         
+         body {
+             background: url(../images/background-tile.jpg);
+             background-size: 70vh;
+         }
+         
+         @import url('https://fonts.googleapis.com/css?family=Julius+Sans+One|Rubik+Mono+One|Shrikhand|Staatliches&display=swap');
+         nav,
+         div.nav-wrapper,
+         a.brand-logo,
+         nav a,
+         ul li a {
+             color: #222;
+             background-color: #eee;
+         }
+         
+         a.brand-logo {
+             font-family: 'Staatliches', sans-serif;
+         }
+         
+         .container {
+             width: 100%;
+             box-shadow: none;
+         }
+         
+         div.nav-container {
+             background-color: #eee;
+             width: 100%;
+             box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+         }
+         
+         div.nav-wrapper {
+             margin: auto;
+             overflow: auto;
+         }
+         
+         img.headshot {
+             height: auto;
+             width: 25%;
+             float: left;
+             margin: 2% 2% 2% 2%;
+         }
+         
+         div.container {
+             margin: 5% auto;
+             padding: 1.5%;
+             background: #eee;
+             color: #222;
+             overflow: auto;
+         }
+         
+         div.contact-container,
+         div.portfolio-container,
+         div.about-container {
+             width: 100%;
+             background: #eee;
+             margin: 10% 0;
+         }
+         
+         h1.contact,
+         h1.about,
+         h1.portfolio {
+             display: block;
+             color: #222;
+             font-size: 2em;
+             font-family: 'Staatliches', sans-serif;
+         }
+         
+         p,
+         div ul li {
+             line-height: 3
+         }
+         
+         textarea.materialize-textarea {
+             height: 7em;
+         }
+         
+         footer {
+             display: block;
+             color: #222;
+             background: #ccb;
+             text-align: center;
+             font-size: 0.7em;
+             left: 0;
+             bottom: 0;
+             width: 100%;
+             padding: 10px 0 10px 10px;
+             box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+         }
