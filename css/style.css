@@ -44,8 +44,8 @@ font-family: 'Rubik Mono One', sans-serif;
          
          img.headshot {
              height: auto;
-             width: 25%;
-             float: left;
+             /*              width: 25%;
+             float: left; */
              margin: 2% 2% 2% 2%;
          }
          
@@ -62,7 +62,7 @@ font-family: 'Rubik Mono One', sans-serif;
          div.about-container {
              width: 100%;
              background: #eee;
-             margin: 10% 0;
+             margin: 10% auto;
          }
          
          h1.contact,
