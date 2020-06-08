@@ -95,3 +95,20 @@ font-family: 'Rubik Mono One', sans-serif;
              padding: 10px 0 10px 10px;
              box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
          }
+
+         .logoimg {
+            max-height: 80px;
+            margin: 2rem;
+        }
+        svg.logoimg {
+            max-height: 80px;
+            max-width: 80px;
+            margin: 2rem;
+        }
+        .line {
+            height: 0.25rem;
+            width: 30%;
+            background-color: rgb(102, 102, 102);
+            margin-top: 2rem;
+            border: none;
+        }
